@@ -1,6 +1,6 @@
 <h1>All Posts</h1>
 <% @posts.each do |p| %>
-    <p><%= p.title %></p>
+    <p><b><%= p.title %></b></p>
     <p><%= p.body%></p>
     <h3>
         <% if user_signed_in? %>
