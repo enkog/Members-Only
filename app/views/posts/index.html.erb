@@ -4,7 +4,7 @@
     <p><%= p.body%></p>
     <h3>
         <% if user_signed_in? %>
-        Username: 
+        Created by: 
         <%= User.find(p.user_id).email %>
         <% end %>
     </h3>
